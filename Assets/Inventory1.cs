@@ -38,6 +38,7 @@ public class Inventory1 : MonoBehaviour
     {
         Debug.Log("Je hebt " + inventory[ItemTypes.WALLS].Count + " muren!");
     }
+
     private void RemoveItems(string itemname)
     {
         foreach (var value in inventory.Values)
