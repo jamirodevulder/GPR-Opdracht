@@ -17,6 +17,7 @@ public class gethit : MonoBehaviour
     {
         hit = true;
         gameObject.GetComponent<PlayerHealt>().damage += gothit;
+
     }
     void Awake()
     {
