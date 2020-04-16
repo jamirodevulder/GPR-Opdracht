@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerInputHandler : MonoBehaviour
 {
+    public enum behaviours { Chase };
     [SerializeField] private int damageAmount;
     [SerializeField] private PlayerHealt callDamageFunction;
     void OnMouseOver()
@@ -12,6 +13,11 @@ public class PlayerInputHandler : MonoBehaviour
         {
             callDamageFunction.TakeDamage(damageAmount);
         }
+
     }
 
+   
+
+
+   
 }
